@@ -1,18 +1,24 @@
 # Single Image Crowd Counting via Multi Column Convolutional Neural Network
 
+This repo is fork from https://github.com/svishwa/crowdcount-mcnn.git
+
 This is an unofficial implementation of CVPR 2016 paper ["Single Image Crowd Counting via Multi Column Convolutional Neural Network"](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf)
 
 # Installation
 1. Install pytorch
 2. Clone this repository
   ```Shell
-  git clone https://github.com/svishwa/crowdcount-mcnn.git
+  https://github.com/cryax/crowd_counting.git 
   ```
   We'll call the directory that you cloned crowdcount-mcnn `ROOT`
 
 
 # Data Setup
 1. Download ShanghaiTech Dataset
+  ```Shell
+  https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0
+  ``` 
+  
 2. Create Directory 
   ```Shell
   mkdir ROOT/data/original/shanghaitech/  
